@@ -1,0 +1,690 @@
+1615048943317	geckodriver	INFO	Listening on 127.0.0.1:49995
+1615049079370	geckodriver	INFO	Listening on 127.0.0.1:50438
+1615049082401	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileQkEyph"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615049088524	Marionette	INFO	Listening on port 50449
+1615049088713	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/40028/Shingeki_no_Kyojin__The_Final_Season line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615049171749	Marionette	INFO	Stopped listening on port 50449
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615049182537	geckodriver	INFO	Listening on 127.0.0.1:50711
+1615049185565	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile9GcCSt"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615049192119	Marionette	INFO	Listening on port 50723
+1615049192436	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/40028/Shingeki_no_Kyojin__The_Final_Season line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+JavaScript error: resource://devtools/client/fronts/inspector.js, line 175: TypeError: grip is undefined
+[Parent 9476, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615049842483	Marionette	INFO	Stopped listening on port 50723
+.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615049586504	Marionette	INFO	Listening on port 51368
+1615049586999	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/40028/Shingeki_no_Kyojin__The_Final_Season line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615049591969	Marionette	INFO	Stopped listening on port 51368
+1615049833947	geckodriver	INFO	Listening on 127.0.0.1:51804
+1615049837003	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile1Z44rp"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615049842434	Marionette	INFO	Listening on port 51815
+1615049842753	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/40028/Shingeki_no_Kyojin__The_Final_Season line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+SourceActor threw an exception: [Exception... "Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]"  nsresult: "0x80470002 (NS_BASE_STREAM_CLOSED)"  location: "JS frame :: resource://devtools/shared/DevToolsUtils.js :: onResponse :: line 567"  data: no]
+Stack: onResponse@resource://devtools/shared/DevToolsUtils.js:567:34
+onStopRequest@resource://gre/modules/NetUtil.jsm:128:18
+Line: 567, column: 0
+console.error: ({})
+JavaScript error: resource://devtools/shared/DevToolsUtils.js, line 567: NS_BASE_STREAM_CLOSED: Component returned failure code: 0x80470002 (NS_BASE_STREAM_CLOSED) [nsIInputStream.available]
+JavaScript error: https://myanimelist.net/anime/5114/Fullmetal_Alchemist__Brotherhood line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+console.error: "Error while calling actor 'pagestyle's method 'getUsedFontFaces'" "node is null"
+console.error: "getUsedFontFaces@resource://devtools/server/actors/page-style.js:368:24\nhandler@resource://devtools/shared/protocol/Actor.js:172:37\nonPacket@resource://devtools/server/devtools-server-connection.js:379:58\nreceiveMessage@resource://devtools/shared/transport/child-transport.js:68:16\n"
+console.error: "Could not get the list of font families" (new Error("Protocol error (TypeError): node is null from: server0.conn1.child3/pagestyle180 (resource://devtools/server/actors/page-style.js:368:24)", "resource://devtools/shared/protocol/Front.js", 361))
+JavaScript error: https://myanimelist.net/anime/5114/Fullmetal_Alchemist__Brotherhood line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+[Parent 6188, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615064865619	Marionette	INFO	Stopped listening on port 51815
+er/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615050629095	geckodriver	INFO	Listening on 127.0.0.1:53328
+1615050632149	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile0B2UlZ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615050637601	Marionette	INFO	Listening on port 53339
+1615050637895	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/40028/Shingeki_no_Kyojin__The_Final_Season line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+[Parent 7660, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615051016370	Marionette	INFO	Stopped listening on port 53339
+round" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilez2W6AH"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615051013001	Marionette	INFO	Listening on port 8414
+1615051013294	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/40028/Shingeki_no_Kyojin__The_Final_Season line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615051023430	Marionette	INFO	Stopped listening on port 8414
+[Parent 8148, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 8148, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615051134399	geckodriver	INFO	Listening on 127.0.0.1:1169
+1615051137428	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile9CtjGA"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615051143080	Marionette	INFO	Listening on port 1181
+1615051143182	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+JavaScript error: https://myanimelist.net/anime/40028/Shingeki_no_Kyojin__The_Final_Season line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+1615051151755	Marionette	INFO	Stopped listening on port 1181
+[Parent 9720, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615051371836	geckodriver	INFO	Listening on 127.0.0.1:1286
+1615051374884	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilewJpP4r"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615051380107	Marionette	INFO	Listening on port 1298
+1615051380634	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/40028/Shingeki_no_Kyojin__The_Final_Season line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+[Parent 14432, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615051626185	Marionette	INFO	Stopped listening on port 1298
+round" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileTML5Qv"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615051479481	Marionette	INFO	Listening on port 1571
+1615051479729	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/40028/Shingeki_no_Kyojin__The_Final_Season line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+[Parent 8812, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 8812, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615052330830	Marionette	INFO	Stopped listening on port 1571
+tings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615051918856	Marionette	INFO	Listening on port 2231
+1615051919165	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+JavaScript error: https://myanimelist.net/anime/40028/Shingeki_no_Kyojin__The_Final_Season line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+[Parent 7236, IPC I/O Parent] WARNING: file /builds/worker/1615052331687	mozrunner::runner	INFO	Running command: "D:\\Prog1615052331749	Marionette	INFO	Stopped listening on port 2231
+ground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileBFWaRR"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615052336430	Marionette	INFO	Listening on port 1297
+1615052336935	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+JavaScript error: https://myanimelist.net/anime/40028/Shingeki_no_Kyojin__The_Final_Season line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+1615052438399	Marionette	INFO	Stopped listening on port 1291615052440035	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileU2zOix"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615052444032	Marionette	INFO	Listening on port 1576
+1615052444176	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/40028/Shingeki_no_Kyojin__The_Final_Season line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615052452730	Marionette	INFO	Stopped listening on port 1576
+[Parent 8652, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615052503738	geckodriver	INFO	Listening on 127.0.0.1:1087
+1615052506777	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilex7uCWo"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615052511410	Marionette	INFO	Listening on port 1101
+1615052511520	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/40028/Shingeki_no_Kyojin__The_Final_Season line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615052519840	Marionette	INFO	Stopped listening on port 1101
+[Parent 15192, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 15192, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615055928659	geckodriver	INFO	Listening on 127.0.0.1:5101
+1615055931711	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileOKGmdS"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615055936556	Marionette	INFO	Listening on port 5112
+1615055936949	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+JavaScript error: https://myanimelist.net/anime/40028/Shingeki_no_Kyojin__The_Final_Season line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+[Parent 11180, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615061971865	Marionette	INFO	Stopped listening on port 5112
+round" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileAzb6Qv"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615056063907	Marionette	INFO	Listening on port 5408
+1615056064272	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/40028/Shingeki_no_Kyojin__The_Final_Season line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615056071438	Marionette	INFO	Stopped listening on port 5408
+[Parent 7020, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 7020, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615056255083	geckodriver	INFO	Listening on 127.0.0.1:2927
+1615056258139	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileY9On3Z"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615056262706	Marionette	INFO	Listening on port 2939
+1615056262906	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+JavaScript error: https://myanimelist.net/anime/40028/Shingeki_no_Kyojin__The_Final_Season line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+1615056270314	Marionette	INFO	Stopped listening on port 2939
+[Parent 16236, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615056636997	geckodriver	INFO	Listening on 127.0.0.1:3494
+1615056640036	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileVOS5f6"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615056644968	Marionette	INFO	Listening on port 3505
+1615056645286	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+JavaScript error: https://myanimelist.net/anime/5114/Fullmetal_Alchemist__Brotherhood line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+1615056664272	Marionette	INFO	Stopped listening on port 3505
+[Parent 2440, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 2440, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615056666734	geckodriver	INFO	Listening on 127.0.0.1:1026
+1615056669766	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile1IM3Ut"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615056674536	Marionette	INFO	Listening on port 1037
+1615056675014	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/40028/Shingeki_no_Kyojin__The_Final_Season line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615056681468	Marionette	INFO	Stopped listening on port 1037
+1615056683470	geckodriver	INFO	Listening on 127.0.0.1:1179
+1615056686506	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileAslCGO"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615056691185	Marionette	INFO	Listening on port 1190
+1615056691279	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/38524/Shingeki_no_Kyojin_Season_3_Part_2 line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615056699455	Marionette	INFO	Stopped listening on port 1190
+[Parent 8088, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615056702018	geckodriver	INFO	Listening on 127.0.0.1:1316
+1615056705039	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilevQyOGK"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615056709794	Marionette	INFO	Listening on port 1327
+1615056710311	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/9253/Steins_Gate line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615056715046	Marionette	INFO	Stopped listening on port 1327
+[Parent 9624, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615056717910	geckodriver	INFO	Listening on 127.0.0.1:1436
+1615056720971	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile0cvKyn"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615056725523	Marionette	INFO	Listening on port 1447
+1615056725751	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/28977/Gintama%C2%B0 line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615056730906	Marionette	INFO	Stopped listening on port 1447
+1615056733211	geckodriver	INFO	Listening on 127.0.0.1:1555
+1615056736248	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileDmRUWd"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615056740964	Marionette	INFO	Listening on port 1566
+1615056741021	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/11061/Hunter_x_Hunter_2011 line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615056750250	Marionette	INFO	Stopped listening on port 1566
+1615056753330	geckodriver	INFO	Listening on 127.0.0.1:1694
+1615056756365	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileEeD5K5"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615056760895	Marionette	INFO	Listening on port 1705
+1615056761140	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/820/Ginga_Eiyuu_Densetsu line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615056773347	Marionette	INFO	Stopped listening on port 1705
+[Parent 14820, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 14820, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615056776006	geckodriver	INFO	Listening on 127.0.0.1:1856
+1615056779055	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile1jjPg9"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615056783686	Marionette	INFO	Listening on port 1867
+1615056783839	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/9969/Gintama line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615056793241	Marionette	INFO	Stopped listening on port 1867
+[Parent 8000, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 8000, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615056795889	geckodriver	INFO	Listening on 127.0.0.1:1997
+1615056798920	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofiley2xaV2"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615056803405	Marionette	INFO	Listening on port 2008
+1615056803690	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/15417/Gintama__Enchousen line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615056815818	Marionette	INFO	Stopped listening on port 2008
+[Parent 7524, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 7524, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615056818631	geckodriver	INFO	Listening on 127.0.0.1:2170
+1615056821679	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileoPHeRj"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615056826484	Marionette	INFO	Listening on port 2181
+1615056826934	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/35180/3-gatsu_no_Lion_2nd_Season line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615056838987	Marionette	INFO	Stopped listening on port 2181
+[Parent 5780, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 5780, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615056841572	geckodriver	INFO	Listening on 127.0.0.1:2323
+1615056844608	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileMS7W4a"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615056849362	Marionette	INFO	Listening on port 2334
+1615056849853	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/28851/Koe_no_Katachi line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615056860589	Marionette	INFO	Stopped listening on port 2334
+[Parent 8220, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615056862808	geckodriver	INFO	Listening on 127.0.0.1:2459
+1615056865845	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilegdWEWX"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615056870292	Marionette	INFO	Listening on port 2470
+1615056870621	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/34096/Gintama line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615056880024	Marionette	INFO	Stopped listening on port 2470
+[Parent 1500, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615056881577	geckodriver	INFO	Listening on 127.0.0.1:2606
+1615056884604	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileyFZwNd"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615056888995	Marionette	INFO	Listening on port 2617
+1615056889362	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/4181/Clannad__After_Story line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615056902023	Marionette	INFO	Stopped listening on port 2617
+[Parent 15052, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615056904226	geckodriver	INFO	Listening on 127.0.0.1:2768
+1615056907260	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileM49BiY"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615056911625	Marionette	INFO	Listening on port 2779
+1615056912032	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/918/Gintama line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615056920983	Marionette	INFO	Stopped listening on port 2779
+[Parent 6328, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615056922824	geckodriver	INFO	Listening on 127.0.0.1:2908
+1615056925871	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileC7WPnP"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615056930190	Marionette	INFO	Listening on port 2919
+1615056930631	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/15335/Gintama_Movie_2__Kanketsu-hen_-_Yorozuya_yo_Eien_Nare line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615056943860	Marionette	INFO	Stopped listening on port 2919
+[Parent 3256, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615056946892	geckodriver	INFO	Listening on 127.0.0.1:3070
+1615056949940	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilemZyuFL"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615056954444	Marionette	INFO	Listening on port 3082
+1615056954677	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/32281/Kimi_no_Na_wa line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615056964269	Marionette	INFO	Stopped listening on port 3082
+[Parent 876, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 876, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615056966944	geckodriver	INFO	Listening on 127.0.0.1:3211
+1615056969989	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilecTNaiH"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615056974835	Marionette	INFO	Listening on port 3222
+1615056975237	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/35247/Owarimonogatari_2nd_Season line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615056986587	Marionette	INFO	Stopped listening on port 3222
+[Parent 12148, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615056989404	geckodriver	INFO	Listening on 127.0.0.1:3369
+1615056992427	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilergsxoJ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615056998388	Marionette	INFO	Listening on port 3391
+1615056998674	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/2904/Code_Geass__Hangyaku_no_Lelouch_R2 line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615057011016	Marionette	INFO	Stopped listening on port 3391
+[Parent 11132, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 11132, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615057013980	geckodriver	INFO	Listening on 127.0.0.1:3561
+1615057017015	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileabLwYo"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615057022022	Marionette	INFO	Listening on port 3573
+1615057022280	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/37491/Gintama__Shirogane_no_Tamashii-hen_-_Kouhan-sen line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615057034767	Marionette	INFO	Stopped listening on port 3573
+[Parent 2188, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 2188, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615057037059	geckodriver	INFO	Listening on 127.0.0.1:3723
+1615057040095	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileBPjmBR"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615057044474	Marionette	INFO	Listening on port 3734
+1615057044858	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/32935/Haikyuu__Karasuno_Koukou_vs_Shiratorizawa_Gakuen_Koukou line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615057055467	Marionette	INFO	Stopped listening on port 3734
+[Parent 13680, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615057057442	geckodriver	INFO	Listening on 127.0.0.1:3882
+1615057060487	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile83X60v"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615057064984	Marionette	INFO	Listening on port 3894
+1615057065238	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/37510/Mob_Psycho_100_II line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615057076164	Marionette	INFO	Stopped listening on port 3894
+[Parent 2348, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615057078317	geckodriver	INFO	Listening on 127.0.0.1:4043
+1615057081357	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilekwqkeF"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615057085822	Marionette	INFO	Listening on port 4054
+1615057086112	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/39486/Gintama__The_Final line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615057097934	Marionette	INFO	Stopped listening on port 4054
+[Parent 8372, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+
+###!!! [Child][RunMessage] Error: Channel closing: too late to send/recv, messages will be lost
+
+1615057099738	geckodriver	INFO	Listening on 127.0.0.1:1026
+1615057102766	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileE2IruD"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615057107180	Marionette	INFO	Listening on port 1037
+1615057107528	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/31758/Kizumonogatari_III__Reiketsu-hen line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615057120306	Marionette	INFO	Stopped listening on port 1037
+1615057121897	geckodriver	INFO	Listening on 127.0.0.1:1187
+1615057124933	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileJOudA0"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615057129401	Marionette	INFO	Listening on port 1198
+1615057129714	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/199/Sen_to_Chihiro_no_Kamikakushi line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615057141868	Marionette	INFO	Stopped listening on port 1198
+[Parent 8308, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 8308, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615057143812	geckodriver	INFO	Listening on 127.0.0.1:1352
+1615057146860	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileJaFGbo"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615057151233	Marionette	INFO	Listening on port 1363
+1615057151614	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/36838/Gintama__Shirogane_no_Tamashii-hen line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615057163941	Marionette	INFO	Stopped listening on port 1363
+[Parent 9180, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 9180, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615057165457	geckodriver	INFO	Listening on 127.0.0.1:1511
+1615057168502	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilehg0tVF"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615057173074	Marionette	INFO	Listening on port 1522
+1615057173252	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/1/Cowboy_Bebop line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615057194230	Marionette	INFO	Stopped listening on port 1522
+[Parent 1264, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 1264, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615057196273	geckodriver	INFO	Listening on 127.0.0.1:1687
+1615057199329	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilexnmfrX"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615057204031	Marionette	INFO	Listening on port 1698
+1615057204087	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/33050/Fate_stay_night_Movie__Heavens_Feel_-_III_Spring_Song line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615057215396	Marionette	INFO	Stopped listening on port 1698
+[Parent 15696, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615057217028	geckodriver	INFO	Listening on 127.0.0.1:1843
+1615057220072	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileZaJDUC"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615057224445	Marionette	INFO	Listening on port 1854
+1615057224813	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/17074/Monogatari_Series__Second_Season line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615057235658	Marionette	INFO	Stopped listening on port 1854
+[Parent 8372, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615057237411	geckodriver	INFO	Listening on 127.0.0.1:2002
+1615057240453	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileLVgyBS"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615057244921	Marionette	INFO	Listening on port 2015
+1615057245225	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/33095/Shouwa_Genroku_Rakugo_Shinjuu__Sukeroku_Futatabi-hen line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615057256542	Marionette	INFO	Stopped listening on port 2015
+[Parent 6908, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 6908, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615057258343	geckodriver	INFO	Listening on 127.0.0.1:2167
+1615057261411	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileiLIrZt"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615057265998	Marionette	INFO	Listening on port 2178
+1615057266163	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/19/Monster line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615057274040	Marionette	INFO	Stopped listening on port 2178
+[Parent 2748, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 2748, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615057276031	geckodriver	INFO	Listening on 127.0.0.1:2301
+1615057279072	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile4hdWV2"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615057283587	Marionette	INFO	Listening on port 2312
+1615057283819	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/24701/Mushishi_Zoku_Shou_2nd_Season line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615057296169	Marionette	INFO	Stopped listening on port 2312
+[Parent 10248, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615057298207	geckodriver	INFO	Listening on 127.0.0.1:2469
+1615057301250	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile5BzuGU"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615057305611	Marionette	INFO	Listening on port 2480
+1615057306033	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/263/Hajime_no_Ippo line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615057316659	Marionette	INFO	Stopped listening on port 2480
+[Parent 6812, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 6812, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615057318466	geckodriver	INFO	Listening on 127.0.0.1:2625
+1615057321527	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile6dBwuf"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615057326153	Marionette	INFO	Listening on port 2636
+1615057326287	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/34599/Made_in_Abyss line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615057337379	Marionette	INFO	Stopped listening on port 2636
+[Parent 5704, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615057339428	geckodriver	INFO	Listening on 127.0.0.1:2784
+1615057342492	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilerFZaR0"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615057347036	Marionette	INFO	Listening on port 2795
+1615057347232	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/36862/Made_in_Abyss_Movie_3__Fukaki_Tamashii_no_Reimei line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615057359384	Marionette	INFO	Stopped listening on port 2795
+[Parent 6060, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 6060, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615057361786	geckodriver	INFO	Listening on 127.0.0.1:2944
+1615057364835	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileaIsJYR"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615057369280	Marionette	INFO	Listening on port 2955
+1615057369605	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/23273/Shigatsu_wa_Kimi_no_Uso line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615057381810	Marionette	INFO	Stopped listening on port 2955
+[Parent 8108, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 8108, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615057383625	geckodriver	INFO	Listening on 127.0.0.1:3102
+1615057386670	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile77FZy1"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615057391021	Marionette	INFO	Listening on port 3114
+1615057391407	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+JavaScript error: https://myanimelist.net/anime/44/Rurouni_Kenshin__Meiji_Kenkaku_Romantan_-_Tsuioku-hen line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+1615057404462	Marionette	INFO	Stopped listening on port 3114
+[Parent 992, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 992, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615057406711	geckodriver	INFO	Listening on 127.0.0.1:3270
+1615057409725	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileHfSGB4"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615057414042	Marionette	INFO	Listening on port 3281
+1615057414482	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/28891/Haikyuu_Second_Season line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615057427061	Marionette	INFO	Stopped listening on port 3281
+[Parent 15332, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615057428878	geckodriver	INFO	Listening on 127.0.0.1:3428
+1615057431924	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilegyJCeJ"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615057436247	Marionette	INFO	Listening on port 3439
+1615057436687	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/40591/Kaguya-sama_wa_Kokurasetai__Tensai-tachi_no_Renai_Zunousen line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615057449456	Marionette	INFO	Stopped listening on port 3439
+[Parent 7516, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615057451557	geckodriver	INFO	Listening on 127.0.0.1:3588
+1615057454591	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilezby1jw"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615057459077	Marionette	INFO	Listening on port 3599
+1615057459356	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/1575/Code_Geass__Hangyaku_no_Lelouch line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615057470890	Marionette	INFO	Stopped listening on port 3599
+[Parent 15716, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 15716, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615057473099	geckodriver	INFO	Listening on 127.0.0.1:3752
+1615057476141	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilej1LwXP"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615057480393	Marionette	INFO	Listening on port 3770
+1615057480934	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/40456/Kimetsu_no_Yaiba_Movie__Mugen_Ressha-hen, line 1: ReferenceError: ga_merchandise is not defined
+JavaScript error: https://myanimelist.net/anime/40456/Kimetsu_no_Yaiba_Movie__Mugen_Ressha-hen, line 1: ReferenceError: ga_music_purchase_site is not defined
+JavaScript error: https://myanimelist.net/anime/40456/Kimetsu_no_Yaiba_Movie__Mugen_Ressha-hen, line 1: ReferenceError: ga_merchandise is not defined
+JavaScript error: https://myanimelist.net/anime/40456/Kimetsu_no_Yaiba_Movie__Mugen_Ressha-hen, line 1: ReferenceError: ga_merchandise is not defined
+JavaScript error: https://myanimelist.net/anime/40456/Kimetsu_no_Yaiba_Movie__Mugen_Ressha-hen, line 1: ReferenceError: ga_merchandise is not defined
+JavaScript error: https://myanimelist.net/anime/40456/Kimetsu_no_Yaiba_Movie__Mugen_Ressha-hen, line 1: ReferenceError: ga_merchandise is not defined
+JavaScript error: https://myanimelist.net/anime/40456/Kimetsu_no_Yaiba_Movie__Mugen_Ressha-hen, line 1: ReferenceError: ga_merchandise_otsukai is not defined
+JavaScript error: https://myanimelist.net/anime/40456/Kimetsu_no_Yaiba_Movie__Mugen_Ressha-hen line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615057495546	Marionette	INFO	Stopped listening on port 3770
+[Parent 5588, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615057498608	geckodriver	INFO	Listening on 127.0.0.1:3922
+1615057501646	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileTDZ74H"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615057506092	Marionette	INFO	Listening on port 3933
+1615057506392	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/21939/Mushishi_Zoku_Shou line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615057515425	Marionette	INFO	Stopped listening on port 3933
+1615057517704	geckodriver	INFO	Listening on 127.0.0.1:4057
+1615057520751	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilelHtOdG"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615057525067	Marionette	INFO	Listening on port 4068
+1615057525495	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/164/Mononoke_Hime line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615057538194	Marionette	INFO	Stopped listening on port 4068
+[Parent 13864, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 13864, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615057540508	geckodriver	INFO	Listening on 127.0.0.1:4222
+1615057543541	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileFtSzIi"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615057547939	Marionette	INFO	Listening on port 4232
+1615057548287	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/37521/Vinland_Saga line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615057561962	Marionette	INFO	Stopped listening on port 4232
+[Parent 10004, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615057564310	geckodriver	INFO	Listening on 127.0.0.1:4384
+1615057567354	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileU1H2pw"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615057571754	Marionette	INFO	Listening on port 4395
+1615057572093	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/245/Great_Teacher_Onizuka line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615057582072	Marionette	INFO	Stopped listening on port 4395
+[Parent 10748, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615057584318	geckodriver	INFO	Listening on 127.0.0.1:4521
+1615057587379	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileWKIEmo"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615057591861	Marionette	INFO	Listening on port 4532
+1615057592115	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/457/Mushishi line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615057597766	Marionette	INFO	Stopped listening on port 4532
+[Parent 992, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 992, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615057600084	geckodriver	INFO	Listening on 127.0.0.1:4636
+1615057603137	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileIiXetA"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615057607639	Marionette	INFO	Listening on port 4648
+1615057607900	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/38329/Seishun_Buta_Yarou_wa_Yumemiru_Shoujo_no_Yume_wo_Minai line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615057620802	Marionette	INFO	Stopped listening on port 4648
+[Parent 2212, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615057623205	geckodriver	INFO	Listening on 127.0.0.1:4793
+1615057626214	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileVPhxfD"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615057630677	Marionette	INFO	Listening on port 4804
+1615057630977	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/11665/Natsume_Yuujinchou_Shi line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615057643638	Marionette	INFO	Stopped listening on port 4804
+[Parent 9920, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615057645778	geckodriver	INFO	Listening on 127.0.0.1:4952
+1615057648804	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilegnthq2"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615057653310	Marionette	INFO	Listening on port 4963
+1615057653551	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn-ssl.vidible.tv/prod/ad-client/js/10.2.59/0.js, line 611: NS_ERROR_NOT_INITIALIZED: 
+1615057667739	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1615057667778	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1615057667806	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1615057669827	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1615057670840	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+1615057671568	Marionette	WARN	Ignoring event 'pageshow' because document has an invalid readyState of 'loading'.
+JavaScript error: https://myanimelist.net/anime/5258/Hajime_no_Ippo__New_Challenger line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615057705552	Marionette	INFO	Stopped listening on port 4963
+[Parent 11108, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+JavaScript error: resource://gre/modules/CrashManager.jsm, line 831: NotAllowedError: Shutting down and refusing additional I/O tasks
+1615057707419	geckodriver	INFO	Listening on 127.0.0.1:5195
+1615057710475	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileP9a2Cv"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615057714962	Marionette	INFO	Listening on port 5206
+1615057715227	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/431/Howl_no_Ugoku_Shiro line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615057724233	Marionette	INFO	Stopped listening on port 5206
+1615057726127	geckodriver	INFO	Listening on 127.0.0.1:5338
+1615057729186	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofiledFfBlE"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615057733678	Marionette	INFO	Listening on port 5349
+1615057733945	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/2921/Ashita_no_Joe_2 line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615057745255	Marionette	INFO	Stopped listening on port 5349
+[Parent 11996, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615065946114	geckodriver	INFO	Listening on 127.0.0.1:15186
+1615065949150	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofile5nsXqA"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615065953135	Marionette	INFO	Listening on port 15199
+1615065953315	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+JavaScript error: https://myanimelist.net/anime/5114/Fullmetal_Alchemist__Brotherhood line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://myanimelist.net/anime/5114/Fullmetal_Alchemist__Brotherhood line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+[Parent 7312, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615066170819	Marionette	INFO	Stopped listening on port 15199
+ground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileaNBCyS"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615066120904	Marionette	INFO	Listening on port 15603
+1615066121372	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/5114/Fullmetal_Alchemist__Brotherhood line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+JavaScript error: https://myanimelist.net/anime/5114/Fullmetal_Alchemist__Brotherhood line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+[Parent 12916, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615066171726	Marionette	INFO	Stopped listening on port 15603
+1615066180838	geckodriver	INFO	Listening on 127.0.0.1:1098
+1615066183884	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilere3NRp"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615066187692	Marionette	INFO	Listening on port 1110
+1615066188020	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/5114/Fullmetal_Alchemist__Brotherhood line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615066200542	Marionette	INFO	Stopped listening on port 1110
+[Parent 12820, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615066286255	geckodriver	INFO	Listening on 127.0.0.1:1364
+1615066289294	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofileweUUqr"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615066293166	Marionette	INFO	Listening on port 1375
+1615066293439	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://myanimelist.net/anime/5114/Fullmetal_Alchemist__Brotherhood line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+1615066305752	Marionette	INFO	Stopped listening on port 1375
+[Parent 5604, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+[Parent 5604, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167
+1615066617300	geckodriver	INFO	Listening on 127.0.0.1:1911
+1615066620338	mozrunner::runner	INFO	Running command: "D:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "-foreground" "-no-remote" "-profile" "C:\\Users\\ADMINI~1\\AppData\\Local\\Temp\\rust_mozprofilej1q68B"
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new Error("", "(unknown module)"))
+1615066625690	Marionette	INFO	Listening on port 1923
+1615066626094	Marionette	WARN	TLS certificate errors will be ignored for this session
+JavaScript error: https://cdn.myanimelist.net/static/assets/js/pc/all-75061f11d9.js, line 1: Error: No options detected. Please consult documentation.
+JavaScript error: https://myanimelist.net/anime/5114/Fullmetal_Alchemist__Brotherhood line 810 > injectedScript, line 1: ReferenceError: smartbanner is not defined
+1615066643935	Marionette	INFO	Stopped listening on port 1923
+[Parent 6268, IPC I/O Parent] WARNING: file /builds/worker/checkouts/gecko/ipc/chromium/src/base/process_util_win.cc:167

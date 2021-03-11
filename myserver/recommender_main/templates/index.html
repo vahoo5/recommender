@@ -1,0 +1,14 @@
+{% extends 'extend/base.html' %} {% block title %} {{ title }} {% endblock %}
+{% block content %}
+<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
+    <table class="table">
+        {% for item in all_animes %}
+        <tr>
+            {% for i in item %}
+            <td>{{ i }}</td>
+            {% endfor %}
+        </tr>
+        {% endfor %}
+    </table>
+</div>
+{% endblock %}
