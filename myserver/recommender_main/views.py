@@ -5,7 +5,7 @@ from .models import Anime
 
 class DisplayAll(View):
     def get(self, request):
-        all_animes = Anime.objects.all()
+        all_animes = Anime.objects.filter(id__lte=80)
         context = {'animes' : all_animes}
         return render(request=request, template_name="index.html", context=context)
 

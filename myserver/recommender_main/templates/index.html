@@ -1,14 +1,30 @@
 {% extends 'extend/base.html' %} {% block title %} {{ title }} {% endblock %}
 {% block content %}
-<div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3">
-    <table class="table">
-        {% for item in all_animes %}
-        <tr>
-            {% for i in item %}
-            <td>{{ i }}</td>
-            {% endfor %}
-        </tr>
-        {% endfor %}
-    </table>
+<div class='row'>
+    <div class=' d-flex col justify-content-center'>
+        <h2>Anime Recommender System</h2>
+    </div>
 </div>
+
+<div class="row">
+    <form action="/action_page.php" method="get" id="anime_url_form">
+    <div class="col-xs-2 d-flex justify-content-center">
+        <label for="ex1">MyAnimeList URL:</label>
+    </div>
+    <div class="col-xs-2 d-flex justify-content-center">
+        <input class="form-control justify-content-center" id="ex1" type="text">
+    </div>
+    <div class="col-xs-2 d-flex justify-content-center">
+        <button type="submit" form="anime_url_form" class="modal-action btn btn-primary">Enter</button>
+    </div>
+</form>
+    
+</div>
+<table class="table">
+    {% for item in animes %}
+        <tr>
+            {{ item.url }}
+        </tr>
+    {% endfor %}
+</table>
 {% endblock %}
