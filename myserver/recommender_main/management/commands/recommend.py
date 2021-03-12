@@ -17,6 +17,8 @@ def getSimilar(cosine_sim, animes):
         results[row['url']] = similar_items[1:]
     return results
 
+
+
 def toJson(result, name):
     a = pd.DataFrame(result)
     a = a.transpose()
@@ -64,10 +66,13 @@ class Command(BaseCommand):
         count_vec_matrix = count_vec.fit_transform(animes['metadata'])
 
         cosine_similarities_metadata = cosine_similarity(count_vec_matrix, count_vec_matrix)
-        cosine_similarities_07 = (cosine_similarities_description * 0.3 + cosine_similarities_metadata * 0.7) / 2
+        cosine_similarities_05 = (cosine_similarities_description + cosine_similarities_metadata) / 2
+
         print(cosine_similarities_description.shape)
         print(cosine_similarities_metadata.shape)
         results_1 = getSimilar(cosine_similarities_metadata, animes)
-        results_07 = getSimilar(cosine_similarities_07, animes)
+        results_05 = getSimilar(cosine_similarities_05, animes)
+        results_0 = getSimilar(cosine_similarities_description, animes)
         toJson(results_1, '1')
-        toJson(results_07, '07')
+        toJson(results_05, '05')
+        toJson(results_0, '0')
