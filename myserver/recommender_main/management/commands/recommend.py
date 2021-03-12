@@ -7,12 +7,14 @@ from sklearn.feature_extraction.text import TfidfVectorizer, CountVectorizer
 from sklearn.metrics.pairwise import linear_kernel, cosine_similarity
 from ast import literal_eval
 
-def getSimilar(cosine_sim):
+def getSimilar(cosine_sim, animes):
     results = {}
+    print(animes.tail())
     for idx, row in animes.iterrows():
+        
         similar_indices = cosine_sim[idx].argsort()[:-50:-1] 
-        similar_items = [(cosine_sim[idx][i], animes['Url'][i]) for i in similar_indices] 
-        results[row['Url']] = similar_items[1:]
+        similar_items = [(cosine_sim[idx][i], animes['url'].iloc[i]) for i in similar_indices] 
+        results[row['url']] = similar_items[1:]
     return results
 
 def toJson(result, name):
@@ -43,16 +45,17 @@ def clean(animes):
     animes['metadata'] = animes.apply(lambda x : ' '.join(x['genres']), axis = 1)
     animes = animes[(lambda x: [True if y in ['TV', 'Movie'] else False for y in x])(animes['kind'])]
     animes = animes[(lambda x: [True if y>15 else False for y in x])(animes['duration'])]
-    animes.id = [x for x in range(animes.shape[0])]
+    animes.index = [x for x in range(animes.shape[0])]
+    return animes
 
 
 class Command(BaseCommand):
     help = 'calculate recommendations'
 
     def handle(self, *args, **kwargs):
-        animes = pd.DataFrame(list(Anime.objects.filter(id__lte=150).values()))
+        animes = pd.DataFrame(list(Anime.objects.all().values()))
         animes = clean(animes)
-
+        print(animes.shape)
         tf = TfidfVectorizer(stop_words='english')
         tfidf_matrix = tf.fit_transform(animes['description'])
         cosine_similarities_description = linear_kernel(tfidf_matrix, tfidf_matrix)
@@ -62,8 +65,9 @@ class Command(BaseCommand):
 
         cosine_similarities_metadata = cosine_similarity(count_vec_matrix, count_vec_matrix)
         cosine_similarities_07 = (cosine_similarities_description * 0.3 + cosine_similarities_metadata * 0.7) / 2
-
-        results_1 = getSimilar(cosine_similarities_metadata)
-        results_07 = getSimilar(cosine_similarities_07)
+        print(cosine_similarities_description.shape)
+        print(cosine_similarities_metadata.shape)
+        results_1 = getSimilar(cosine_similarities_metadata, animes)
+        results_07 = getSimilar(cosine_similarities_07, animes)
         toJson(results_1, '1')
         toJson(results_07, '07')

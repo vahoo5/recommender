@@ -2,29 +2,66 @@
 {% block content %}
 <div class='row'>
     <div class=' d-flex col justify-content-center'>
-        <h2>Anime Recommender System</h2>
+        <h2>Anime Recommender</h2>
     </div>
 </div>
 
-<div class="row">
-    <form action="/action_page.php" method="get" id="anime_url_form">
-    <div class="col-xs-2 d-flex justify-content-center">
-        <label for="ex1">MyAnimeList URL:</label>
-    </div>
-    <div class="col-xs-2 d-flex justify-content-center">
-        <input class="form-control justify-content-center" id="ex1" type="text">
-    </div>
-    <div class="col-xs-2 d-flex justify-content-center">
-        <button type="submit" form="anime_url_form" class="modal-action btn btn-primary">Enter</button>
-    </div>
-</form>
-    
+<div class="row d-flex align-items-center justify-content-center">
+    <form action="{% url 'recommender_main' %}" method="GET" id="anime_url_form">
+        <div class="col-xs-2 d-flex justify-content-center">
+            <label for="ex1">MyAnimeList URL:</label>
+        </div>
+        <div class="col-xs-2 d-flex justify-content-center">
+            <input class="form-control justify-content-center w-50" id="ex1" type="text" name='anime_url'>
+        </div>
+        <div class="d-flex justify-content-center my-4">
+            <label for="range_shit" class="form-label">Top ?? recommendations:</label>
+        </div>
+        <div class="d-flex justify-content-center my-4">
+
+            <span class="font-weight-bold indigo-text mr-2 mt-1">1</span>
+            <form class="range-field w-25" id="anime_top_n_form">
+                <input name="top_n" class="border-0" type="range" min="1" max="50" id='range_shit' />
+            </form>
+            <span class="font-weight-bold indigo-text ml-2 mt-1">50</span>
+        </div>
+        <div class="col-xs-2 d-flex justify-content-center">
+            {% csrf_token %}
+            <button type="submit" form="anime_url_form" class="modal-action btn btn-primary">Recommend</button>
+        </div>
+    </form>
+
 </div>
-<table class="table">
-    {% for item in animes %}
-        <tr>
-            {{ item.url }}
-        </tr>
-    {% endfor %}
-</table>
+{% if info %}
+<div class="row ">
+    <div class="col-xs-2 d-flex justify-content-center">
+        <span>{{ info }}</span>
+    </div>
+</div>
+{% endif %}
+{% if top_1 %}
+<div class='m-5'>
+    <div class='d-flex align-items-center justify-content-center'>
+        <table class='table w-50 table-striped table-bordered'>
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Similarity</th>
+                    <th scope="col">Url</th>
+                </tr>
+            </thead>
+            <tbody>
+                {% for a in top_1 %}
+                <tr>
+                    <th scope="row">{{ forloop.counter }}</th>
+                    <td>{{ a.0 }}</td>
+                    <td><a href="{{a.1}}"> {{ a.1 }}</a></td>
+                </tr>
+
+                {% endfor %}
+            </tbody>
+        </table>
+    </div>
+</div>
+{% endif %}
 {% endblock %}
